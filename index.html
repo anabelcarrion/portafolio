@@ -1,116 +1,337 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Portafolio ACJ</title>
-        <link rel="stylesheet" type="text/css" href="">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
-        <link href="assets/css/main.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        
-    </head>
+<head>
 
-    <body>
-        <div id="index">                                           <!-- Index starts here -->
-            <div class="container main">
-                <div class="row home">
-                    <div id = "index_left" class="col-md-6 left">
-                        <h1>aqui pondre una imagen</h1>
-                    </div>
-                    <div id = "index_right" class="col-md-6 text-center right">
-                        <div class="logo">
-                            <h1>aqui pondre un logotipo</h1>
-                            <h4>Hola</h4>
+    <!--Etiquetas-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Titulo -->
+    <title>Portfolio ACJ</title>
+    <!--Icono -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--Iconos de línea css -->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+    <!--Ventana emergente css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Default css -->
+    <link rel="stylesheet" href="assets/css/default.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="loader_34">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
                         </div>
-                        <p class="home-description">
-                            Soy Anabel Carrion, desarrollador web. Me apasiona el diseño, el desarrollo y la interacción.
-                        </p>
-                        <div class="btn-group-vertical custom_btn animated slideinright">
-                            <div id="about" class="btn btn1">Quien soy</div>
-                            <div id="contact" class="btn btn1">Trabajos</div>
-                            <div id="work" class="btn btn1">Contacto</div>
-                           
-                        </div>      
-                      
-                    </div>
-                </div>
-
-                
-            </div>
-        </div>                                                      <!-- index ends here -->
-
-        <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6 left" id="about_left">
-                        <h1>aqui pondre una imagen</h1>
-                    </div>
-
-                    <div class="col-md-6 right" id="about_right">
-                        <a href="#index" class="btn btn1 back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Inicio </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Quien Soy</h2>
-                            <div class="marker">Q</div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
                         </div>
-                        <p class='subtitle'>una breve descripcion de quien soy
-                        </p>
-                        <p class="info">sobre experiencia laboral y conociminetos</p>  
-                    </div>
-                </div>
-            </div>            
-        </div>                                                                <!-- About ends here -->
-
-        <div id="contact_scroll" class="pages">                             <!-- Contact starts here -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6 right" id="contact_right">
-                        <a href="#index" class="btn btn1 back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Inicio </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Trabajos</h2>
-                            <div class="marker">T</div>
-                        </div>
-                       
                     </div>
                 </div>
             </div>
-       
-            <footer class="text-center">
-                <div class="container bottom">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <p>Made with <i class="fa fa-heartbeat" aria-hidden="true"></i> by <a href="https://themewagon.com/">Themewagon</a></p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            
-        </div>  
-        <div id="work_scroll" class="pages">                                  <!-- Work starts here -->
-            <div class="container main">
+        </div>
+    </div>
+
+    <!--HEADER-->
+    <header id="home" class="header-area">
+        <div class="navigation fixed-top">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6" id="work_right">
-                        <a href="#index" class="btn btn1 back"> <i class="fa fa-angle-left" aria-hidden="true"></i>Inicio</a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Contacto</h2>
-                            <div class="marker">C</div>
-                        </div>
-                        <p class='subtitle'>datos de contacto
-                        </p>
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo.png" alt="Logo">
+                            </a> <!-- Logo -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active"><a class="page-scroll" href="#home">Inicio</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#about">Acerca de Mi</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#work">Proyectos</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#contact">Contacto</a></li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
                     </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navigation -->
+
+        <div id="parallax" class="header-content d-flex align-items-center">
+            <div class="header-shape shape-one layer" data-depth="0.10">
+                <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-tow layer" data-depth="0.30">
+                <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-three layer" data-depth="0.40">
+                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-fore layer" data-depth="0.60">
+                <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-five layer" data-depth="0.20">
+                <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-six layer" data-depth="0.15">
+                <img src="assets/images/banner/shape/shape-4.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-seven layer" data-depth="0.50">
+                <img src="assets/images/banner/shape/shape-5.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-eight layer" data-depth="0.40">
+                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-nine layer" data-depth="0.20">
+                <img src="assets/images/banner/shape/shape-6.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="header-shape shape-ten layer" data-depth="0.30">
+                <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
+            </div> <!-- header shape -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="header-content-right">
+                            <h4 class="sub-title">Hola, soy</h4>
+                            <h1 class="title">Anabel Carrion</h1>
+                            <p>Desarrolladora Front-end, con experiencia en diseños e implementación de software.</p>
+                            <a class="main-btn" href="#work">Proyectos</a>
+                        </div> <!-- header content right -->
+                    </div>
+                    <div class="col-lg-6 offset-xl-1">
+                        <div class="header-image d-none d-lg-block">
+                            <img src="assets/images/banner/hero.png" alt="hero">
+                        </div> <!-- header image -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+    </header>
+
+    <!--HEADER PART ENDS-->
+
+    <!--seccion sobre mi-->
+    <section id="about" class="about-area pt-125 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="title">Acerca de Mi</h2>
+                    </div> <!-- section title -->
                 </div>
-            </div>    
-        </div>                                                                 <!-- Work ends here  -->
-                                                            <!-- Contact ends here -->
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/script.js"></script>
-    </body>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content mt-50">
+                        <h5 class="about-title">Hola! Soy Anbel Carrion</h5>
+                        <p>Soy desarrolladora Frontend, he trabajdo en equipos de trabajo utilizando la metodologias Agiles.</p>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-lg-6">
+                    <div class="about-content mt-50">
+                        <h5 class="about-title">HABILIDADES</h5>
+                        <p>HTML</p>
+                        <p>JAVASCRIPT</p>
+                        <p>REACT</p>
+                        <p>CSS</p>
+                        <p>BOOTSTRAP</p>
+                    </div> <!-- about skills -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== seccion sobre los proyectos ======-->
+
+    <section id="work" class="work-area pt-125 pb-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-title pb-25">
+                        <h2 class="title">Proyectos</h2>
+                    </div> 
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <!-- proyecto cipher -->
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/cipher.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Papis Seguros, esta creada con el objetivo de que los padres puedan enviarse mensajes de textos codificados o encriptados, si sus hijos toman sus celulares, no puedan saber lo que dicen sus mensajes.</h3>
+
+                                <ul>
+                                    <li><a href="https://anabelcarrion.github.io/SCL010-Cipher/"><i class="lni-plus"></i></a></li>
+                                    <li><a href="https://anabelcarrion.github.io/SCL010-Cipher/src/index.html"><i class="lni-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <!-- proyecto peliculas -->
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/oneMovie.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">OneMovies es una aplicaion de busqueda de series o peliculas, donde puedes hacerle una invitacion a un amigo a ver la pelicula.</h3>
+                                <ul>
+                                    <li><a href="https://github.com/anabelcarrion/SCL010-hackathon-peliculas/blob/master/README.md"><i class="lni-plus"></i></a></li>
+                                    <li><a href="https://anabelcarrion.github.io/SCL010-hackathon-peliculas/index.html"><i class="lni-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                 <!-- proyecto juego de memoria -->
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/cards-game.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Esta aplicacion es un juego cartas, donde deben encontrar las parejas iguales</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/oneMovie.jpg"><i class="lni-plus"></i></a></li>
+                                    <li><a href="#"><i class="lni-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <!-- proyecto Take a shower -->
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/work/take-A-Shower.jpg" alt="work">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Concurso de baños de perritos, el ganador es quien mas rapido logre bañar los perritos de su contrincante. el objetivo de este juego es crear conciencia sobre la tenecia reponsable y adopcion de mascotas</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/work/w-3.jpg"><i class="lni-plus"></i></a></li>
+                                    <li><a href="#"><i class="lni-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== WORK PART ENDS ======-->
+
+    <!--====== CONTACT PART START ======-->
+
+    <section id="contact" class="contact-area pt-125 pb-130 gray-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center pb-25">
+                        <h2 class="title">Contacto</h2>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="contact-box text-center mt-30">
+                        <div class="contact-icon">
+                            <i class="lni-phone"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="contact-title">Celular</h6>
+                            <p>+569 48773698</p>
+                        </div>
+                    </div> <!-- contact box -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="contact-box text-center mt-30">
+                        <div class="contact-icon">
+                            <i class="lni-envelope"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="contact-title">Email</h6>
+                            <p>anabelcarrion3110@gmail.com</p>
+                        </div>
+                    </div> <!-- contact box -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer-area">
+        <div class="footer-copyright pb-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-text text-center pt-20">
+                            <p>AnabelCarrionJimenez</p>
+                        </div> <!-- copyright text -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
+    </footer>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Parallax js ======-->
+    <script src="assets/js/parallax.min.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+
+    <!--====== Appear js ======-->
+    <script src="assets/js/jquery.appear.min.js"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
